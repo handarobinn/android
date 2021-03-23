@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--    <in 3 dots menu></in>-->
+    <item
+        android:id="@+id/menu"
+        android:title="Option2"
+        app:showAsAction="never" />
+
+    <item android:title="Settings">
+        <menu>
+            <group android:checkableBehavior="none">
+                <!--        <item-->
+                <!--            android:id="@+id/menusettings"-->
+                <!--            android:title="Settings"-->
+                <!--            app:showAsAction="never" />-->
+
+                <item
+                    android:id="@+id/about"
+                    android:title="about"
+                    app:showAsAction="never" />
+            </group>
+        </menu>
+    </item>
+
+
+    <!--In action bar-->
+>
+
+    <item
+        android:id="@+id/facebook"
+        android:icon="@drawable/facebook_icon"
+        android:title="Facebook"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/twitter"
+        android:icon="@drawable/twitter_icon"
+        android:title="Twitter"
+        app:showAsAction="always" />
+</menu>
+

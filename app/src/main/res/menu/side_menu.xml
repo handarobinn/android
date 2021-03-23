@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:icon="@drawable/chat"
+    android:title="chat page"
+    android:id="@+id/side_chat"/>
+    <item
+        android:icon="@drawable/sun"
+    android:title="Weather forecast"
+    android:id="@+id/side_weather"/>
+    <item
+        android:icon="@drawable/profile"
+    android:title="Go back to login"
+    android:id="@+id/side_login"/>
+
+</menu>

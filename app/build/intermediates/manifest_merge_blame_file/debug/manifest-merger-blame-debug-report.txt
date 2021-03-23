@@ -1,0 +1,88 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.Test"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml
+10
+11    <uses-feature
+11-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:5:5-7:35
+12        android:name="android.hardware.camera"
+12-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:6:9-47
+13        android:required="true" />
+13-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:7:9-32
+14
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:9:5-65
+15-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:10:5-67
+16-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:10:22-64
+17
+18    <application
+18-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:12:5-38:19
+19        android:allowBackup="true"
+19-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:13:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.3.1] C:\Users\Falcon\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:14:9-43
+23        android:label=" Test ToolBar"
+23-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:15:9-38
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Test" >
+27-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:18:9-42
+28        <activity
+28-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:19:9-20:71
+29            android:name="com.Test.TestToolBar"
+29-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:19:19-46
+30            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+30-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:20:13-69
+31        <activity android:name="com.Test.EmptyActivity" />
+31-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:21:9-51
+31-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:21:19-48
+32        <activity android:name="com.Test.WeatherForecast" />
+32-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:22:9-53
+32-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:22:19-50
+33        <activity
+33-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:23:9-25:46
+34            android:name="com.Test.ProfileActivity"
+34-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:24:13-44
+35            android:configChanges="locale" />
+35-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:25:13-43
+36        <activity
+36-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:26:9-28:46
+37            android:name="com.Test.ChatRoomActivity"
+37-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:27:13-45
+38            android:configChanges="locale" />
+38-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:28:13-43
+39        <activity
+39-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:29:9-37:20
+40            android:name="com.Test.MainActivity"
+40-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:30:13-41
+41            android:configChanges="locale" >
+41-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:31:13-43
+42            <intent-filter>
+42-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:32:13-36:29
+43                <action android:name="android.intent.action.MAIN" />
+43-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:33:17-69
+43-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:33:25-66
+44
+45                <category android:name="android.intent.category.LAUNCHER" />
+45-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:35:17-77
+45-->C:\Android Test\test2\Test\app\src\main\AndroidManifest.xml:35:27-74
+46            </intent-filter>
+47        </activity>
+48    </application>
+49
+50</manifest>

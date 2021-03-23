@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Activity Project</string>
+    <string name="Login">Login </string>
+    <string name="email_label">Enter your email address:</string>
+    <string name="pwd_label">Type your password:</string>
+    <string name="email_hint">Type email here</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="name_label">Your Name</string>
+    <string name="your_email">Your Email:</string>
+    <string name="enter_your_email">Enter your Email</string>
+    <string name="name_hint">Enter your Name</string>
+    <string name="your_picture">Your Picture</string>
+    <string name="your_picture_msg">Click the button above to take picture</string>
+    <string name="go_chat">Go to chat</string>
+
+
+    <string name="send">Send</string>
+    <string name="receive">Receive</string>
+    <string name="type">Type here</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="message_here">Message Here</string>
+    <string name="is_a_send_message">Is a Send Message</string>
+    <string name="hide">Hide</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+</resources>

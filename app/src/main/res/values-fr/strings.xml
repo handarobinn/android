@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Projet d\'activité</string>
+    <string name="Login">S\'IDENTIFIER</string>
+    <string name="email_label">Entrez votre adresse email:</string>
+    <string name="pwd_label">Tapez votre mot de passe:</string>
+    <string name="email_hint">Saisissez votre e-mail ici</string>
+    <string name="your_profile">Votre profil</string>
+    <string name="name_label">votre nom</string>
+    <string name="your_email">Votre email:</string>
+    <string name="enter_your_email">Entrer votre Email</string>
+    <string name="name_hint">Entrez votre nom</string>
+    <string name="your_picture">Ta photo</string>
+    <string name="your_picture_msg">Cliquez sur le bouton ci-dessus pour prendre une photo</string>
+    <string name="go_chat">Aller au chat</string>
+
+    <string name="send">Envoyer</string>
+    <string name="receive">Recevoir</string>
+    <string name="type">Écrivez ici</string>
+    <string name="message_here">Message Here</string>
+    <string name="is_a_send_message">Is a Send Message</string>
+    <string name="hide">Hide</string>
+</resources>
